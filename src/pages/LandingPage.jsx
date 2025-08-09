@@ -50,14 +50,14 @@ const LandingPage = () => {
     },
     {
       name: "Sarah Putri",
-      role: "Alumni Manajemen Bisnis",
+      role: "Alumni Manajemen Informatika",
       company: "Business Analyst di Tokopedia",
       content: "Kualitas pendidikan yang excellent dengan dosen yang sangat supportive. Saya berhasil mendapatkan pekerjaan impian berkat beasiswa ini.",
       rating: 5
     },
     {
       name: "Budi Santoso",
-      role: "Alumni Teknik Mesin",
+      role: "Alumni Akuntansi",
       company: "Project Manager di Pertamina",
       content: "Fasilitas laboratorium yang lengkap dan program magang yang terstruktur membuat saya siap menghadapi dunia kerja.",
       rating: 5
@@ -193,20 +193,12 @@ const LandingPage = () => {
                 </div>
                 <div className="flex items-center space-x-3">
                   <BookOpen className="w-6 h-6" />
-                  <span>Manajemen Bisnis</span>
-                </div>
-                <div className="flex items-center space-x-3">
-                  <BookOpen className="w-6 h-6" />
-                  <span>Teknik Mesin</span>
+                  <span>Manajemen Informatika</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <BookOpen className="w-6 h-6" />
                   <span>Akuntansi</span>
-                </div>
-                <div className="flex items-center space-x-3">
-                  <BookOpen className="w-6 h-6" />
-                  <span>Teknik Elektro</span>
-                </div>
+                </div>          
               </div>
             </motion.div>
           </div>
@@ -604,3 +596,4 @@ const LandingPage = () => {
 }
 
 export default LandingPage
+
