@@ -30,7 +30,7 @@ const LandingPage = () => {
     },
     {
       icon: <Award className="w-8 h-8" />,
-      title: "Akreditasi A",
+      title: "Akreditasi B",
       description: "Semua program studi terakreditasi A oleh BAN-PT"
     },
     {
@@ -596,4 +596,5 @@ const LandingPage = () => {
 }
 
 export default LandingPage
+
 
