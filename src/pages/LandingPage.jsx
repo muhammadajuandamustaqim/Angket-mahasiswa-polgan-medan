@@ -31,7 +31,7 @@ const LandingPage = () => {
     {
       icon: <Award className="w-8 h-8" />,
       title: "Akreditasi B",
-      description: "Semua program studi terakreditasi A oleh BAN-PT"
+      description: "Semua program studi terakreditasi B oleh BAN-PT"
     },
     {
       icon: <Briefcase className="w-8 h-8" />,
@@ -461,7 +461,7 @@ const LandingPage = () => {
                 </svg>
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-3">Telepon</h3>
-              <p className="text-gray-600 mb-2">+62 61 1234 5678</p>
+              <p className="text-gray-600 mb-2">+62 896-1403-5812</p>
               <p className="text-sm text-gray-500">Senin - Jumat, 08:00 - 17:00</p>
             </motion.div>
 
@@ -478,7 +478,7 @@ const LandingPage = () => {
                 </svg>
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-3">WhatsApp</h3>
-              <p className="text-gray-600 mb-2">+62 812 3456 7890</p>
+              <p className="text-gray-600 mb-2">+62 896-1403-5812</p>
               <p className="text-sm text-gray-500">24/7 Customer Service</p>
             </motion.div>
 
@@ -495,7 +495,7 @@ const LandingPage = () => {
                 </svg>
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-3">Email</h3>
-              <p className="text-gray-600 mb-2">info@polganesha.ac.id</p>
+              <p className="text-gray-600 mb-2">polganmedan@gmail.com</p>
               <p className="text-sm text-gray-500">Respon dalam 24 jam</p>
             </motion.div>
 
@@ -513,8 +513,8 @@ const LandingPage = () => {
                 </svg>
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-3">Alamat</h3>
-              <p className="text-gray-600 mb-2">Jl. Ganesha No. 123</p>
-              <p className="text-sm text-gray-500">Medan, Sumatera Utara</p>
+              <p className="text-gray-600 mb-2">BC Medan, Jl. Arief Rahman Hakim No.193, Tegal Sari II Kec. Medan Area,</p>
+              <p className="text-sm text-gray-500">kota Medan, Sumatera Utara</p>
             </motion.div>
           </div>
 
@@ -596,5 +596,6 @@ const LandingPage = () => {
 }
 
 export default LandingPage
+
 
 
